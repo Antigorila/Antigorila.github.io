@@ -1,0 +1,50 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    background-color: rgb(72, 72, 72);
+    color: rgb(174, 174, 174);
+}
+
+.card:hover {
+    box-shadow: 8px 16px 8px 0 rgba(255, 0, 0, 0.352);
+    background-color: rgb(50, 50, 50);
+}
+body {
+    background-color: rgb(109, 109, 109);
+    color: rgb(160, 160, 160);
+}
+
+.button {
+    background-color: #222222b7;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; 
+}
+
+
+
+.passwordIOconHolder{
+    z-index: 9999;
+    position: absolute;
+    top: 20%;
+    right: 10px;
+}
+
+.passwordIcon{
+    color: #000;
+}
+
+.passwordIcon:hover{
+    cursor: pointer;
+}
+
+.feher{
+    color: white;
+}
